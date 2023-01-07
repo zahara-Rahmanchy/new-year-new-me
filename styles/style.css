@@ -79,11 +79,20 @@
 }
 
 .failures{
+    color:#444343;
     margin-bottom: 14px;
 
 }
+
 .failures-list{
-    margin-left: 20px;
+    list-style: none;
+    color:#444343;
+    font-size: 16px;
+    
+}
+.check{
+    margin-right: 3px;
+    color: rgb(17, 152, 17);
 }
 /* Motivation Section */
 
