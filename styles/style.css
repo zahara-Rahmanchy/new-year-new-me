@@ -54,7 +54,7 @@
 
 /* main */
 /* main{
-    max-width: 1140px;
+    max-width: 1141px;
     margin: 0 auto;
 } */
 /* previous plan section */
@@ -67,13 +67,94 @@
     align-items: space-between;
     justify-content: center;
 }
-.failure-list{
+.previous-description{
     margin-top: 274px;
     margin-left:113px;
     float: right;
     margin-right: 20px;
 }
 .failure-list-header{
-    font-size: 20px;
+    margin-bottom: 29px;
+    font-weight: 400px;
+    font-size: 30px;
     font-family: 'Work Sans';
+}
+
+.failures{
+    margin-bottom: 14px;
+
+}
+.failures-list{
+    margin-left: 20px;
+}
+
+/* My plan section */
+.plan-section{
+    max-width: 1141px;
+    margin: 0 auto;
+    border: 1px solid #444343 ;
+}
+.plan-header{
+    margin-top:113px;
+    font-weight: 400px;
+    font-size: 30px;
+    font-family: 'Work Sans';
+    text-align: center;
+}
+
+.plans-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px;
+}
+.plan-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Work Sans';
+}
+.plan-icon{
+    margin-bottom: 24px;
+    width:92px;
+    height: 92px;
+}
+
+.plan-item p{
+    margin-top: 14px;
+    
+    color:#444343;
+}
+
+/* gradient image  section*/
+.gradient-image-section{
+    max-width: 1141px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
+    height: 300px;
+    background-size: cover;
+    color: white;
+    /* padding: 20px; */
+}
+
+.message-div{
+    
+   
+    font-size: 30px;
+    margin-top: 70px;
+    padding-left: 70px;
+    padding-top: 80px;
+    width: 400px;
+    height: 180px;
+}
+
+.call-btn{
+    border:none;
+    margin-top:40px;
+    width:160px;
+    height: 60px;
+    padding: 21px;
+    border-radius:5px;
+    font-size: 20px;
+    color: #F15B22;
 }
