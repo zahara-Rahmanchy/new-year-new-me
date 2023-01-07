@@ -5,6 +5,7 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Work Sans';
 }
 /* header */
 .header{
@@ -112,7 +113,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: 'Work Sans';
+   
 }
 .plan-icon{
     margin-bottom: 24px;
@@ -157,4 +158,46 @@
     border-radius:5px;
     font-size: 20px;
     color: #F15B22;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.left-box p{
+    font-style: normal;
+    font-size: 16px;
+}
+.right-box input{
+    background-color: transparent;
+    border-radius: 5px;
+    width: 300px;
+    height: 55px;
+    color:white;
+   
+}
+.right-box input::placeholder{
+    color: white;
+    padding-left: 20px;
+    opacity: 0.9;
+}
+.right-box button{
+    margin-top:30px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    color:#F15B22;
+
 }
