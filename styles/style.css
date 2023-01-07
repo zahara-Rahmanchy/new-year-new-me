@@ -24,6 +24,7 @@
     font-family: 'Work Sans';
     margin: 10px;
     padding: 20px;
+    
 }
 .header-title{
     
@@ -31,6 +32,8 @@
     font-size: 40px;
     line-height: 50px;
     font-style: normal;
+    font-family: 'Work sans';
+    float: right;
    
 }
 
@@ -38,9 +41,16 @@
     color:#444343;
     font-size: 16px;
     font-style: normal;
+    float: right;
 
 }
+.believe{
+    margin-left: 130px;
+}
 
+.description-margin{
+    margin-left: 35px;
+}
 .contact-btn{
     float: right;
     margin-top: 5px;
